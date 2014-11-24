@@ -1,0 +1,25 @@
+en:
+  flash:
+    must_be_logged_in: 'You must be logged in to access this page.'
+
+    login:
+      create:
+        alert: 'Your e-mail/login or password are invalid.'
+
+    signup:
+      create:
+        notice: 'Your account has been created!'
+
+    tasks:
+      create:
+        notice: 'The task has been added.'
+
+      destroy:
+        notice: 'The task has been removed.'
+
+      update:
+        notice: 'The task has been updated.'
+
+      batch_update:
+        notice: 'Done! All tasks updated!'
+

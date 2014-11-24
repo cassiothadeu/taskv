@@ -1,0 +1,35 @@
+en:
+  labels:
+    login:
+      credential: Your e-mail or login
+      password: Your password
+
+    user:
+      name: Your name
+      email: Your e-mail
+      password: Your password
+      password_confirmation: Confirm your password
+      login: Your login
+
+    task:
+      title: Describe the task
+
+  placeholders:
+    task:
+      title: 'Describe the task...'
+
+  form_error_message: 'Double check the form before continuing:'
+  inline_errors: 'Error: %{errors}'
+
+  helpers:
+    submit:
+      login: Access my account
+      update_all: Save
+
+      user:
+        create: Sign me up
+        update: Update my profile
+
+      task:
+        create: Add
+        update: Update

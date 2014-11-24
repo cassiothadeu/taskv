@@ -1,0 +1,35 @@
+pt-BR:
+  labels:
+    login:
+      credential: Seu e-mail ou login
+      password: Sua senha
+
+    user:
+      name: Seu nome
+      email: Seu e-mail
+      password: Sua senha
+      password_confirmation: Confirme sua senha
+      login: Seu login
+
+    task:
+      title: Descreva a tarefa
+
+  placeholders:
+    task:
+      title: 'Descreva a sua tarefa...'
+
+  form_error_message: 'Verifique o formulário antes de continuar:'
+  inline_errors: 'Erro: %{errors}'
+
+  helpers:
+    submit:
+      login: Acessar minha conta
+      update_all: Salvar
+
+      user:
+        create: Quero me cadastrar
+        update: Atualizar meus dados
+
+      task:
+        create: Adicionar
+        update: Atualizar

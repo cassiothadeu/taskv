@@ -1,0 +1,30 @@
+<header>
+  <div class="group">
+    <%= link_to root_path, class: 'logo' do %>
+      <%= image_tag 'logo.png', alt: 'Taskv' %>
+    <% end %>
+
+    <h1>
+      <%= yield :page_title %>
+    </h1>
+  </div>
+
+  <nav>
+    <ul>
+      <% if logged_in? %>
+        <li>
+          <%= t('general.greeting', name: current_user.name) %>
+          <%= button_to t('menu.logout'), logout_path, method: 'delete' %>
+        </li>
+      <% else %>
+        <li>
+          <%= link_to t('menu.signup'), signup_path %>
+        </li>
+
+        <li>
+          <%= link_to t('menu.login'), login_path %>
+        </li>
+      <% end %>
+    </ul>
+  </nav>
+</header>

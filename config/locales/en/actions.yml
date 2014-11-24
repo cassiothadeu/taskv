@@ -1,0 +1,7 @@
+en:
+  actions:
+    remove: 'Remove'
+    im_sure: "Yes, I'm sure!"
+    cancel: 'Cancel'
+    nope_cancel: 'No, I changed my mind'
+    edit: 'Edit'

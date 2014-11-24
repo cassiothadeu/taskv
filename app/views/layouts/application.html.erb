@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taskv</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <section>
+      <%= render 'shared/main_header' %>
+      <%= render 'shared/flash_messages' %>
+      <%= yield %>
+      <%= render 'shared/main_footer' %>
+    </section>
+  </body>
+</html>

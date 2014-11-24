@@ -1,0 +1,7 @@
+pt-BR:
+  actions:
+    remove: 'Remover'
+    im_sure: 'Sim, tenho certeza!'
+    cancel: 'Cancelar'
+    nope_cancel: 'Não, quero cancelar'
+    edit: 'Editar'

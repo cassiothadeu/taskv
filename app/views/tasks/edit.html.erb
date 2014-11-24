@@ -1,0 +1,9 @@
+<%= render 'shared/form_errors', record: @task %>
+
+<%= form_for @task, url: edit_task_path, html: {class: 'task-form'} do |f| %>
+  <p>
+    <%= f.label :title, t('labels.task.title') %>
+    <%= f.text_field :title, placeholder: t('placeholders.task.title') %>
+    <%= f.submit class: 'button' %>
+  </p>
+<% end %>

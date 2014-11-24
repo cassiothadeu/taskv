@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+pending:
+  title: Finish this app
+  user: john
+
+complete:
+  title: Bootstrap app
+  completed_at: <%= Time.now.to_s(:db) %>
+  user: john

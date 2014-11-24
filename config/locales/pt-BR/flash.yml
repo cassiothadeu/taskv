@@ -1,0 +1,24 @@
+pt-BR:
+  flash:
+    must_be_logged_in: 'Você precisa estar logado para acessar esta página.'
+
+    login:
+      create:
+        alert: 'Seu e-mail/login ou senha estão incorretos!'
+
+    signup:
+      create:
+        notice: 'Seu cadastro foi realizado com sucesso!'
+
+    tasks:
+      create:
+        notice: 'Sua tarefa foi adicionada com sucesso!'
+
+      destroy:
+        notice: 'Tarefa removida com sucesso!'
+
+      update:
+        notice: 'Sua tarefa foi atualizada com sucesso!'
+
+      batch_update:
+        notice: 'Tarefas atualizadas com sucesso!'

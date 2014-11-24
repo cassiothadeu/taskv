@@ -1,0 +1,8 @@
+<p>
+  Tem certeza que deseja remover a tarefa
+  <strong><%= @task.title %></strong>?<br>
+  <small>Não será possível desfazer esta ação.</small>
+</p>
+
+<%= button_to t('actions.im_sure'), remove_task_path(@task), method: 'delete', class: 'button' %>
+<%= link_to t('actions.nope_cancel'), tasks_path %>

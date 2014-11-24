@@ -1,0 +1,8 @@
+pt-BR:
+  general:
+    greeting: 'Olá, %{name}'
+    select_locale: 'Escolha o idioma'
+    pending_tasks:
+      zero: nenhuma tarefa pendente
+      one: 1 tarefa pendente
+      other: '%{count} tarefas pendentes'

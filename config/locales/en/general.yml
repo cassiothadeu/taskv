@@ -1,0 +1,8 @@
+en:
+  general:
+    greeting: 'Hi, %{name}'
+    select_locale: 'Choose language'
+    pending_tasks:
+      zero: no pending tasks
+      one: 1 pending task
+      other: '%{count} pending tasks'

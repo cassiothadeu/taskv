@@ -1,0 +1,23 @@
+<% content_for :page_title do %>
+  <%= t('general.pending_tasks', count: current_user.tasks.pending_count) %>
+<% end %>
+
+<%= form_for @task, url: new_task_path, html: {class: 'task-form'} do |f| %>
+  <p>
+    <%= f.label :title, t('labels.task.title') %>
+    <%= f.text_field :title, placeholder: t('placeholders.task.title') %>
+    <%= f.submit class: 'button' %>
+  </p>
+<% end %>
+
+<% if @tasks.any? %>
+  <%= form_tag update_tasks_path, method: 'patch' do %>
+    <ul class="tasks">
+      <%= render @tasks %>
+    </ul>
+
+    <p>
+      <%= submit_tag t('helpers.submit.update_all'), class: 'button' %>
+    </p>
+  <% end %>
+<% end %>

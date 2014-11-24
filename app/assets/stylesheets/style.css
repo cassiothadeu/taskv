@@ -1,0 +1,254 @@
+html {
+  background: #f5f5f5;
+}
+
+body {
+  font: normal 18px/1.5 "Helvetica Neue", sans-serif;
+  margin: 0 auto;
+  width: 680px;
+}
+
+.group {
+  overflow: hidden;
+}
+
+header .logo {
+  float: left;
+  border-right: 1px solid #000;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+header {
+  position: relative;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+header h1 {
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  float: left;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+nav input {
+  font-size: 18px;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.actions {
+  -webkit-transition: opacity .2s ease-in;
+  font-size: 14px;
+  opacity: 0;
+}
+
+.actions a {
+  color: #cc4b00;
+}
+
+li:hover .actions {
+  opacity: 1;
+}
+
+.task-form input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  outline-color: #83A968;
+  padding: 15px 100px 15px 15px;
+  width: 565px;
+}
+
+.button {
+  -webkit-transition: background .2s ease-in;
+  background: #777;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  text-transform: lowercase;
+}
+
+.button:hover {
+  background: #666;
+}
+
+.task-form .button {
+  background: #83A968;
+  position: absolute;
+  right: 3px;
+  top: 6px;
+}
+
+.task-form .button:hover {
+  background: #688753;
+}
+
+.task-form {
+  position: relative;
+}
+
+.complete label,
+.pending label {
+  display: inline;
+}
+
+.complete label {
+  color: #888;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.pending {
+  font-size: 24px;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  display: inline-block;
+  padding: 9px;
+  position: relative;
+  top: 4px;
+}
+
+.firefox input[type=checkbox] {
+  top: 0;
+}
+
+input[type=checkbox]:checked:after {
+  color: #444;
+  content: '\2714';
+  font-size: 14px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+}
+
+.opera input[type="checkbox"] { top: -4px !important; }
+.firefox input[type=checkbox] { top: 0; }
+.firefox .pending input[type=checkbox] { top: -4px; }
+.firefox .complete input[type=checkbox] { top: 0; }
+
+.complete input[type=checkbox] {
+  top: 7px;
+}
+
+.complete input[type=checkbox]:checked:after {
+  color: #777;
+}
+
+.placeholder .task-form label {
+  display: none;
+}
+
+form > p:last-child {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+form > div:first-child + p {
+  border: none;
+  padding-top: 0;
+}
+
+.message {
+  border-radius: 5px;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.notice {
+  background: #90CC26;
+}
+
+.alert {
+  background: #BE3605;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  font-size: 17px;
+  padding: 5px 10px;
+  width: 400px;
+}
+
+.error-messages li {
+  list-style: disc;
+  margin-left: 25px;
+}
+
+.error-messages p {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.error-messages {
+  border-left: 10px solid #EA5722;
+  padding: 0 0 5px 20px;
+}
+
+.field-with-error label {
+  color: #bf4e3f;
+  font-weight: bold;
+}
+
+.field-with-error input {
+  background: #fcc;
+}
+
+footer {
+  background: rgba(0,0,0,.1);
+  padding: 15px;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #727272;
+}
+
+.button_to,
+.button_to * {
+  display: inline;
+}
