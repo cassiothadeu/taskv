@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'bcrypt', '~> 3.1.7'
 gem 'rails-i18n'
 gem 'foreigner'
+gem 'dotenv-rails'
 
 group :development do
   gem 'spring'
